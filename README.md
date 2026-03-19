@@ -55,9 +55,49 @@ Ensure the following tools are installed on the **Jenkins Worker Node**:
 - eksctl (optional but recommended)
 
 Verify installations:
-
-```bash
+```
 java -version
 terraform -version
 aws --version
 kubectl version --client
+
+```
+
+
+
+### Add Build Step → Execute Shell for creating the EKS
+
+```
+# Move to workspace
+cd $WORKSPACE
+
+# Initialize Terraform
+terraform init
+
+# Validate config
+terraform validate
+
+# Plan
+terraform plan -out=tfplan
+
+# Apply
+terraform apply -auto-approve tfplan
+
+```
+
+
+### Add Build Step → Execute Shell for destroying the EKS
+
+```
+# Fix PATH (important)
+export PATH=$PATH:/usr/local/bin
+
+# Go to workspace
+cd $WORKSPACE
+
+# Initialize Terraform
+terraform init
+
+# Destroy infra
+terraform destroy -auto-approve
+```
