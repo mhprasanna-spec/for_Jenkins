@@ -4,6 +4,7 @@ This document captures the real-world issues encountered while automating AWS EK
 
 ---
 
+
 ## 🔹 1. Git Repository Access Issue
 
 **Problem:**
