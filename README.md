@@ -101,3 +101,16 @@ terraform init
 # Destroy infra
 terraform destroy -auto-approve
 ```
+
+# 🚨 Issues Faced During EKS Provisioning using Terraform via Jenkins
+
+This document outlines the common issues faced while setting up and automating AWS EKS infrastructure using Terraform through Jenkins, along with their fixes and learnings.
+
+---
+
+## 🔹 1. Git Repository Access Issue
+
+**Problem:**
+Jenkins failed to clone code from GitHub.
+
+**Error:**
