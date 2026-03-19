@@ -126,7 +126,7 @@ Channel is closing down
 **Fix:**
 - Reconnected agent  
 - Ensured stable network  
-
+- in my case the memory is low
 ---
 
 ## 🔹 8. Low Resource Issues (Memory/CPU)
