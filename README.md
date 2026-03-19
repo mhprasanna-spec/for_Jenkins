@@ -4,7 +4,6 @@ This project demonstrates how to automate the creation of an Amazon EKS (Elastic
 
 ---
 
-
 ## 📌 Project Overview
 
 - Infrastructure as Code using **Terraform**
