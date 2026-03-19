@@ -31,7 +31,7 @@ This project demonstrates how to automate the creation of an Amazon EKS (Elastic
 ### 🔹 Job 2: Destroy Infrastructure
 - Terraform Destroy
 
-
+---
 
 
 ## ⚙️ Prerequisites
