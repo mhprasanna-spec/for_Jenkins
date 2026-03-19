@@ -5,6 +5,7 @@ provider "aws" {
 # Get AWS account info
 data "aws_caller_identity" "current" {}
 
+
 # -----------------------------
 # 1. IAM Role for EKS Cluster
 # -----------------------------
