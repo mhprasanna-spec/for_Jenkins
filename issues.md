@@ -36,8 +36,8 @@ AWS credentials were not accessible inside the Jenkins job.
 - Enabled **"Use secret text(s) or file(s)"**  
 - Exposed:
 
-- AWS_ACCESS_KEY_ID
-- AWS_SECRET_ACCESS_KEY
+    - AWS_ACCESS_KEY_ID
+    - AWS_SECRET_ACCESS_KEY
 
 
 ---
