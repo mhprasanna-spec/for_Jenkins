@@ -23,6 +23,17 @@ This project demonstrates how to automate the creation of an Amazon EKS (Elastic
 
 ---
 
+## 🏗️ Workflow
+
+### 🔹 Job 1: Create Infrastructure
+- Terraform Init → Validate → Plan → Apply
+
+### 🔹 Job 2: Destroy Infrastructure
+- Terraform Destroy
+
+
+
+
 ## ⚙️ Prerequisites
 
 ### 🔹 1. Jenkins Setup
