@@ -33,9 +33,16 @@ pipeline {
         }
 
 
-```
-
 
 
     }
 }
+
+
+
+```
+
+
+## syntax pipeline (dec)
+
+
