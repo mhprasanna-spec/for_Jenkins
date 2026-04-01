@@ -11,7 +11,7 @@ pipeline {
                 
                 // 2. Wrap terraform commands inside the credentials block
                 withCredentials([aws(accessKeyVariable: 'AWS_ACCESS_KEY_ID', 
-                                    credentialsId: 'ubuntu', 
+                                    credentialsId: 'aws-cred', 
                                     secretKeyVariable: 'AWS_SECRET_ACCESS_KEY')]) {
                     sh '''
                         terraform init
